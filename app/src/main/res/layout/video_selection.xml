@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="192dp"
+    android:layout_height="192dp"
+    android:layout_margin="8dp"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto">
+<ImageView
+    android:id="@+id/imgView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop">
+
+</ImageView>
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/selection_btn"
+        android:visibility="gone"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#ee2c34"
+        fancy:fb_focusColor="#e22c34"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="32dp"
+        fancy:fb_text=" "
+        fancy:fb_textColor="#FFFFFF" />
+</FrameLayout>
